@@ -1,0 +1,55 @@
+<view>
+  <view class="title">
+    <text>政策列表</text>
+    <picker class="picker" mode="selector" bindchange="pickerChange" range="{{array}}" range-key="name">
+      <view>
+        当前选择：全部
+      </view>
+    </picker>
+  </view>
+  <view class="item-content">
+    <view class="item">
+      <!-- <image src="/static/zhengce.png" mode="widthFix"></image> -->
+      <text class="item-title">2022年10月28日最新卷烟供应政策</text>
+      <view>
+        <view class="type">卷烟供应</view>
+        <text class="item-time">20222.10.28</text>
+      </view>
+
+    </view>
+    <view class="item">
+      <!-- <image src="/static/zhengce.png" mode="widthFix"></image> -->
+      <text class="item-title">2022年10月28日最新卷烟供应政策</text>
+      <view>
+        <view class="type">卷烟供应</view>
+        <text class="item-time">20222.10.28</text>
+      </view>
+
+    </view>
+    <view class="item">
+      <!-- <image src="/static/zhengce.png" mode="widthFix"></image> -->
+      <text class="item-title">2022年10月28日最新卷烟供应政策</text>
+      <view>
+        <view class="type">卷烟供应</view>
+        <text class="item-time">20222.10.28</text>
+      </view>
+
+    </view>
+    <view class="item">
+      <!-- <image src="/static/zhengce.png" mode="widthFix"></image> -->
+      <text class="item-title">2022年10月28日最新卷烟供应政策</text>
+      <view>
+        <view class="type">卷烟供应</view>
+        <text class="item-time">20222.10.28</text>
+      </view>
+    </view>
+    <view class="item">
+      <!-- <image src="/static/zhengce.png" mode="widthFix"></image> -->
+      <text class="item-title">2022年10月28日最新卷烟供应政策</text>
+      <view>
+        <view class="type">卷烟供应</view>
+        <text class="item-time">20222.10.28</text>
+      </view>
+    </view>
+  </view>
+</view>

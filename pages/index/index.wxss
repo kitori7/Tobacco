@@ -1,19 +1,64 @@
-/**index.wxss**/
-.userinfo {
+.title {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: #aaa;
+  border-bottom: 1rpx solid rgb(197, 197, 197);
+  height: 70rpx;
+  font-size: 38rpx;
+  color: #888;
+  background-color: #fff;
+  margin-top: 50rpx;
+  line-height: 70rpx;
+  padding: 0 30rpx;
 }
 
-.userinfo-avatar {
-  overflow: hidden;
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
+.title text {
+  flex: 2;
 }
 
-.usermotto {
-  margin-top: 200px;
+.picker {
+  flex: 1;
+  display: flex;
+}
+
+.picker view {
+  font-size: 26rpx;
+  padding: 0 20rpx;
+  height: 50rpx;
+  transform: translate(0, 10rpx);
+  line-height: 50rpx;
+  color: #ffffff;
+  border-radius: 10rpx;
+  background-color: #5cd355;
+  border: 2rpx solid #5cd355;
+}
+
+.item-content {
+  padding: 0 20rpx;
+}
+
+.item-content .item {
+  height: 150rpx;
+  width: 94%;
+  margin: 30rpx 0;
+  padding: 20rpx;
+  background-color: #fff;
+  border-radius: 10rpx;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.item .item-title {
+  display: block;
+  height: 80rpx;
+  width: 100%;
+  line-height: 80rpx;
+}
+.item .type{
+  border: 1rpx solid #5cd355;
+  color: #5cd355;
+  padding: 5rpx;
+  display: inline-block;
+  font-size: 26rpx;
+}
+.item .item-time {
+  font-size: 26rpx;
+  float: right;
+  color: #888;
 }

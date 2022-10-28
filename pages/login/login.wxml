@@ -1,0 +1,6 @@
+<view>
+<view class="content">
+<image src="{{infoImg}}" mode="widthFix"></image>
+<button type="primary" open-type="getUserInfo" bindgetuserinfo="getInfo">登录</button>
+</view>
+</view>
