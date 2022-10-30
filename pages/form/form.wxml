@@ -1,0 +1,14 @@
+<view>
+  <view class="form-content">
+    <view class="title">烟草局政策信息小程序</view>
+    <view class="input-content">
+      <view class="login-content">
+        <input type="text" placeholder="请输入姓名"/>
+        <input type="text" placeholder="请输入店铺代码"/>
+      </view>
+    </view>
+    <view class="btn-content">
+      <button type="primary" bindtap="submit">提交</button>
+    </view>
+  </view>
+</view>

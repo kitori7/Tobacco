@@ -18,7 +18,6 @@
 
     </view>
     <view class="item">
-      <!-- <image src="/static/zhengce.png" mode="widthFix"></image> -->
       <text class="item-title">2022年10月28日最新卷烟供应政策</text>
       <view>
         <view class="type">卷烟供应</view>
