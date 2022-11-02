@@ -1,10 +1,9 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/login/login",
-    "pages/item/item",
     "pages/form/form"
   ],
+  "lazyCodeLoading": "requiredComponents",
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#5cd355",

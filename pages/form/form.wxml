@@ -3,8 +3,8 @@
     <view class="title">烟草局政策信息小程序</view>
     <view class="input-content">
       <view class="login-content">
-        <input type="text" placeholder="请输入姓名"/>
-        <input type="text" placeholder="请输入店铺代码"/>
+        <input type="text" placeholder="请输入姓名" bindinput="inputChange" data-type="1"/>
+        <input type="text" placeholder="请输入店铺代码" bindinput="inputChange" data-type="0"/>
       </view>
     </view>
     <view class="btn-content">

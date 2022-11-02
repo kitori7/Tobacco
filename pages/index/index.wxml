@@ -3,52 +3,18 @@
     <text>政策列表</text>
     <picker class="picker" mode="selector" bindchange="pickerChange" range="{{array}}" range-key="name">
       <view>
-        当前选择：全部
+        当前选择：{{showType}}
       </view>
     </picker>
   </view>
   <view class="item-content">
-    <view class="item">
-      <!-- <image src="/static/zhengce.png" mode="widthFix"></image> -->
-      <text class="item-title">2022年10月28日最新卷烟供应政策</text>
+    <view class="item" bindtap="itemClick" wx:for="{{item}}" data-file="{{item.file}}" wx:key="_id">
+      <text class="item-title">{{item.title}}</text>
       <view>
-        <view class="type">卷烟供应</view>
-        <text class="item-time">20222.10.28</text>
-      </view>
-
-    </view>
-    <view class="item">
-      <text class="item-title">2022年10月28日最新卷烟供应政策</text>
-      <view>
-        <view class="type">卷烟供应</view>
-        <text class="item-time">20222.10.28</text>
-      </view>
-
-    </view>
-    <view class="item">
-      <!-- <image src="/static/zhengce.png" mode="widthFix"></image> -->
-      <text class="item-title">2022年10月28日最新卷烟供应政策</text>
-      <view>
-        <view class="type">卷烟供应</view>
-        <text class="item-time">20222.10.28</text>
-      </view>
-
-    </view>
-    <view class="item">
-      <!-- <image src="/static/zhengce.png" mode="widthFix"></image> -->
-      <text class="item-title">2022年10月28日最新卷烟供应政策</text>
-      <view>
-        <view class="type">卷烟供应</view>
-        <text class="item-time">20222.10.28</text>
-      </view>
-    </view>
-    <view class="item">
-      <!-- <image src="/static/zhengce.png" mode="widthFix"></image> -->
-      <text class="item-title">2022年10月28日最新卷烟供应政策</text>
-      <view>
-        <view class="type">卷烟供应</view>
-        <text class="item-time">20222.10.28</text>
+        <view class="type">{{item.type}}</view>
+        <text class="item-time">{{item.data}}</text>
       </view>
     </view>
   </view>
+  <button type="primary" bindtap="loginOut">登出</button>
 </view>

@@ -20,8 +20,8 @@
 }
 
 .picker view {
-  font-size: 26rpx;
-  padding: 0 20rpx;
+  font-size: 23rpx;
+  padding: 0 15rpx;
   height: 50rpx;
   transform: translate(0, 10rpx);
   line-height: 50rpx;
